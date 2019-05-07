@@ -1,0 +1,204 @@
+h1,a{font-family: 'Poppins', sans-serif;
+}
+
+body{background-color: lavenderblush;
+}
+
+
+/* Menu Bar Navigation Styles   */
+.topnav {
+  overflow:hidden;
+  background-color: #ae80bd;
+border-radius: 20px;
+border-color: black;
+position: relative;
+    top:3px;
+}
+
+.topnav a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 19px;
+  text-decoration: none;
+  font-size: 17px;
+border-radius: 20px;
+}
+
+.topnav a:hover {
+  background-color: #d8c4eb;
+  color: #f4e2e8;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.p intro{
+    color:azure;
+}
+/*----Hero Space-------*/
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.2));
+  height: 25%; width:100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: absolute;
+    z-index: -2;
+top:6px;
+left:-1px;
+}
+
+.camera{
+    position: absolute;
+    top:20%;
+    right:60px;
+
+  z-index: 0;
+    margin: 0px;
+}
+    
+
+.hero-text {
+	-webkit-animation: tracking-in-expand 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  
+    padding: 3px;
+  
+  position: absolute;
+  top: 180%;
+left:50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255,255,255,1.0);
+z-index: 0;
+}
+    
+
+
+.sentence p {
+    
+    position: absolute;
+    
+    top:55%;
+    left: 25%;
+    color: rgba(255,255,255,1.0);
+    z-index: 1;
+
+    
+}
+
+
+
+    /*-----end of Hero Space------*/
+
+
+    
+    /* This is the Name Animation*/
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+}
+
+* {box-sizing:border-box}
+/*   end of hero box     */
+
+
+.banner{position: relative;
+   top:px;
+   display: block;
+    
+    
+}
+
+.bounce-in-fwd {
+	-webkit-animation: bounce-in-fwd 1.15s both;
+	        animation: bounce-in-fwd 1.15s both;
+}
+.stuff{position: relative;
+    top:110px;
+    left:30%;
+    
+}
+
+
+/*end of animations*/
+
+.banner h1{ background-color: #ae80bd;
+    display: block;
+    top:180px;
+    
+}
+
+.sis{position: relative;
+    
+  width: 210px;
+  z-index: 1;
+  top: 90px;
+  right:1000px;
+  background: rgba(174, 128, 189, 0.37); 
+  overflow-x: hidden;
+  padding: 10,20,40,20;
+}
+
+.sis a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: .9em;
+  color: #ae80bd;
+  display: block;
+}
+
+.sis a:hover {
+  color: #064579;
+}
+
+.sis ul{
+    text-decoration: none;
+    
+}
+.bro{
+position: relative;
+    top:20px;
+left: 180px;
+float: left;
+width:75%;
+padding: 20px;
+margin-left: 10px;  
+
+}
+
+
+
+/*responsive media screen happenings*/
+
+@media screen and (max-height: 450px) {
+  .sis {padding-top: 15px;}
+  .sis a {font-size: 18px;}
+}
