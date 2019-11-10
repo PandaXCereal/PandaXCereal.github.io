@@ -8,7 +8,7 @@ body{background-color: lavenderblush;
 /* Menu Bar Navigation Styles   */
 .topnav {
   overflow:hidden;
-  background-color: #ae80bd;
+  background-color: #f0ddf7;
 border-radius: 20px;
 border-color: black;
 position: relative;
@@ -31,13 +31,219 @@ border-radius: 20px;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(82, 0, 82);
   color: white;
 }
 
 .p intro{
-    color:azure;
+    color:rgb(255, 255, 255);
 }
+
+        
+    .jumbotron {
+margin-top: 20px;
+color: white;
+  background-image:url(portfolio_images/Vectrove.jpg);
+background-position: center;
+  background-size: 1265px 340px;
+background-repeat: no-repeat;
+font-weight: 700;
+
+  
+
+}
+.jumbotron h1{
+    animation-name: slide-in;
+    }
+
+animation-name : slide-in;
+        @-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+
+
+
+    .nav-pills {
+    background-color: #ae80bd;
+
+}
+    .nav-link{
+        
+color: white;
+    }
+    .nav-link active{
+        background-color: #debfe8;
+        color: white;
+        
+    }
+    
+    a:hover{
+        color:rgb(255, 213, 237);
+        
+        
+    }
+    
+    
+    <!----www-------->
+    
+    
+    
+    
+    
+    
+.row > .column {
+  padding: 0 0px;
+
+}
+
+    .row{
+        align-content: space-between;
+    }
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(174, 128, 189, 0.61);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.5s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+
+</style>
+
+
+
+
+
 /*----Hero Space-------*/
 
 .hero-image {
